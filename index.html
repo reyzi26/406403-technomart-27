@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Техномарт</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
   	<header>
@@ -11,10 +12,13 @@
   			<img src="img/logo-technomart.svg" alt="Логотип Техномарт" width="220" height="47"><!-- Рамку задать в стилях -->
   		</a>
   		
-  		<div>
-  			<p>Поиск:</p>
-  			<input type="text">
-  		</div>
+  		<form action="https://echo.htmlacademy.ru" method="post">
+  			<img src="img/icon-search.svg" alt="search">
+  			<p>
+  				<input type="submit" value="Поиск:">
+  				<input type="search">
+  			</p>
+  		</form>
 
   		<div>
   			<a>Закладки: 0</a>
@@ -40,7 +44,7 @@
 			<ul>
 				<li><a href="index.html">Главная</a></li>
 				<li><a href="#">Компания</a></li>
-				<li><a href="#">Каталог</a></li>
+				<li><a href="catalog.html">Каталог</a></li>
 				<li><a href="#">Новости</a></li>
 				<li><a href="#">Спецпредложения</a></li>
 				<li><a href="#">Доставка</a></li>
@@ -49,7 +53,7 @@
   	</header>
 
   	<main>
-  		<h1>Магазин "Техномарт"</h1>
+  		<h1 class="visually-hidden">Магазин "Техномарт"</h1>
   		<!-- В стилях убрать заголовок первого уровня!!! -->
 			
 			<section>
@@ -164,7 +168,7 @@
 				<div>
 					<h2>Популярные производители:</h2>
 					<a href="#">
-						<button type="button">Все производители</button>
+						Все производители
 					</a>
 				</div>
 
@@ -228,35 +232,8 @@
 				заехав в наш офис:</p>
 				<img src="img/maps.png" alt="maps" width="300" height="158">				
 				<a href="#">Заблудились? Напишите нам!</a>
-				<!--Здесь будет форма-->
-				<form action="#" method="post">
-					<p>
-						<label for="user-name">Ваше имя:</label>
-						<input type="name" id="user-name" name="name" placeholder="Имя Фамилия">
-					</p>
-					<p>
-						<label for="email">Ваш e-mail:</label>
-						<input type="email" id="email" name="email" placeholder="email@example.com">
-					</p>
-					<p>
-						<label for="text">Текст письма:</label>
-						<input type="text" id="text" name="text" placeholder="В свободной форме">
-					</p>
-					<button type="submit">
-						Отправить
-					</button>
-					<button type="button">
-						Закрыть
-					</button>
-				</form>
-  		</section>
-
-  		<section>
-  			<p>
-  				<img src="img/big-map.jpg" width="940" height="447" alt="Офис компании по адресу г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8">
-  			</p>
-  			<button type="button">Закрыть</button>
-  		</section>
+			</section>
+				<!--Здесь будет форма-->				
   		
   	</main>
 
@@ -304,6 +281,35 @@
         <a href="https://htmlacademy.ru">HTML Academy</a>
       </p>
   	</footer>
+
+  	<form action="https://echo.htmlacademy.ru" method="post">
+					<p>
+						<label for="user-name">Ваше имя:</label>
+						<input type="name" id="user-name" name="name" placeholder="Имя Фамилия">
+					</p>
+					<p>
+						<label for="email">Ваш e-mail:</label>
+						<input type="email" id="email" name="email" placeholder="email@example.com">
+					</p>
+					<p>
+						<label for="text">Текст письма:</label>
+						<input type="text" id="text" name="text" placeholder="В свободной форме">
+					</p>
+					<button type="submit">
+						Отправить
+					</button>
+					<button type="button">
+						Закрыть
+					</button>
+		</form>
+  		
+
+  	<div>
+  		<p>
+  			<img src="img/big-map.jpg" width="940" height="447" alt="Офис компании по адресу г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8">
+  		</p>
+  		<button type="button">Закрыть</button>
+  	</div>
 		
 
   </body>

@@ -3,16 +3,21 @@
 <head>
 	<meta charset="UTF-8">
 	<title>HTML Academy: Техномарт</title>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 	  	<header>
 	  		<a href="index.html">
 	  			<img src="img/logo-technomart.svg" alt="Логотип Техномарт" width="220" height="47"><!-- Рамку задать в стилях -->
-	  		</a>	  		
-	  		<div>
-	  			<p>Поиск:</p>
-	  			<input type="text">
-	  		</div>
+	  		</a>	  
+
+	  		<form action="https://echo.htmlacademy.ru" method="post">
+	  			<img src="img/icon-search.svg" alt="search">
+	  			<p>
+	  				<input type="submit" name="search" value="Поиск:">
+	  				<input type="search" name="search">
+	  			</p>
+	  		</form>
 
 	  		<div>
 	  			<a>Закладки: 0</a>
@@ -54,15 +59,14 @@
 	  			<li>Перфораторы</li>
 	  		</ul>
 
-	  		<h1 class="visually-hidden">Перфораторы</h1>
+	  		<h1>Перфораторы</h1>
 
 	  		<section>
 	  			<h2>Фильтр товаров</h2>
-	  			<!-- Здесь будет форма -->
-					<form action="#" method="post">
-						<div>
-							<img src="img/ok-icon.svg" alt="ok" width="66p" height="66">
-							<span>Товар добавлен в корзину!</span>
+	  			
+					<form action="https://echo.htmlacademy.ru" method="post">
+						<div>							
+							<p>Товар добавлен в корзину!</p>
 							<button type="button">Закрыть</button>
 						</div>	
 						<div>
