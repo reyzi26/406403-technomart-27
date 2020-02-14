@@ -26,6 +26,14 @@ a{
   background-color: #293449;
   margin-bottom: 46px;
 }
+.header-info a:nth-child(3){
+  background-color: #63a63e;
+  padding: 14px 22px 13px 20px;
+  color: #ffffff;
+  font-family: Cuprum;
+  font-size: 17px;
+  font-weight: 400;
+}
 .site-info{
   width: 196px;
   height: 60px;
@@ -108,6 +116,7 @@ a{
   text-transform: uppercase;
   background-color: #ee3643;
   padding: 14px 45px 14px 49px;
+  border: none;
 }
 
 .product-title a,
@@ -154,6 +163,7 @@ a{
   text-transform: uppercase;
   background-color: #ee3643;
   padding: 14px 55px;
+  border: none;
 }
 .popular-man{  
   border: 1px solid #eaeaea;
@@ -164,7 +174,7 @@ a{
 .services{  
   width: 1926px;
   height: 522px;
-  margin-bottom: 182px;
+  margin-bottom: 300px;
 }
 .services-title{
   font-family: Cuprum;
@@ -177,6 +187,37 @@ a{
   font-family: "PT Sans";
   font-weight: 400;
   line-height: 24px;
+}
+
+.features-button-1{
+  color: #32425c;
+  font-family: Cuprum;
+  font-size: 21px;
+  font-weight: 700;
+  box-shadow: 0 1px 0 #ffffff, inset 0 1px 0 #ffffff;
+  background-color: #ffffff;
+  padding: 21px 140px 21px 22px;
+  border: none;
+}
+.features-button-2{
+  color: #ffffff;
+  font-family: Cuprum;
+  font-size: 21px;
+  font-weight: 700;
+  box-shadow: 0 1px 0 #293449, inset 0 1px 0 #405069;
+  background-color: #32425c;
+  padding: 21px 140px 20px 23px;
+  border: none;
+}
+.features-button-3{
+  color: #ffffff;
+  font-family: Cuprum;
+  font-size: 21px;
+  font-weight: 700;
+  box-shadow: 0 1px 0 #293449, inset 0 1px 0 #405069;
+  background-color: #32425c;
+  padding: 21px 157px 20px 23px;
+  border: none;
 }
 .features-title{
   color: #32425c;
@@ -249,20 +290,17 @@ a{
   width: 138px;
   padding: 20px 41px 25px 41px;
 }
-.navigation-footer{
-  color: #f1f5f7;
-  font-family: Cuprum;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 24px;
-}
+
 .button{
   color: #ffd180;
   font-family: Cuprum;
   font-size: 16px;
   font-weight: 400;
 }
-.company-copuright{
+.social-button{
+  list-style: none;
+}
+.company-copyright{
   font-family: Cuprum;
   font-size: 16px;
   font-weight: 400;
@@ -273,12 +311,7 @@ a{
   font-size: 18px;
   font-weight: 400;
 }
-.navigation-footer{
-  color: #f1f5f7;
-  font-family: Cuprum;
-  font-size: 18px;
-  font-weight: 400;
-}
+
 
 .visually-hidden {
   position: absolute;
