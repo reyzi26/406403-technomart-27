@@ -210,14 +210,13 @@ a{
   padding: 14px 55px;
   border: none;
 }
-.popular-man{  
+.popular-manufactures li{  
   border: 1px solid #eaeaea;
   background-color: #ffffff;
 }
 
 
-.services{  
-  width: 1926px;  
+.services{   
   margin-bottom: 300px;
 }
 .services-title{
@@ -233,36 +232,30 @@ a{
   line-height: 24px;
 }
 
-.features-button-1{
-  color: #32425c;
+
+.features-button{
+  color: #ffffff;
   font-family: 'Cuprum', 'Arial', sans-serif;
   font-size: 21px;
   font-weight: 700;
+  box-shadow: 0 1px 0 #293449, inset 0 1px 0 #405069;
+  background-color: #32425c;
+  padding-top: 21px;
+  padding-bottom: 21px;
+  padding-left: 23px;
+  padding-right: 140px;  
+  width: 240px;
+  border: none;
+}
+.features-1{
+  color: #32425c;
   box-shadow: 0 1px 0 #ffffff, inset 0 1px 0 #ffffff;
   background-color: #ffffff;
-  padding: 21px 140px 21px 22px;
-  border: none;
 }
-.features-button-2{
-  color: #ffffff;
-  font-family: 'Cuprum', 'Arial', sans-serif;
-  font-size: 21px;
-  font-weight: 700;
-  box-shadow: 0 1px 0 #293449, inset 0 1px 0 #405069;
-  background-color: #32425c;
-  padding: 21px 140px 20px 23px;
-  border: none;
+.features-3{
+  padding-right: 157px;
 }
-.features-button-3{
-  color: #ffffff;
-  font-family: 'Cuprum', 'Arial', sans-serif;
-  font-size: 21px;
-  font-weight: 700;
-  box-shadow: 0 1px 0 #293449, inset 0 1px 0 #405069;
-  background-color: #32425c;
-  padding: 21px 157px 20px 23px;
-  border: none;
-}
+
 .features-title{
   color: #32425c;
   font-family: 'Cuprum', 'Arial', sans-serif;
@@ -354,6 +347,12 @@ a{
 .products-footer a{
   color: #ffd180;
   font-size: 18px;
+  font-weight: 400;
+}
+.email{
+  color: #ffd180;
+  font-family: 'Cuprum', 'Arial', sans-serif;
+  font-size: 16px;
   font-weight: 400;
 }
 .button{
