@@ -23,8 +23,8 @@
 				</form>
 
 				<div class="header-info">
-					<a>Закладки: 0</a>
-					<a>Корзина: 0</a>  			
+					<a href="#" class="header-counter bookmark">Закладки: 0</a>
+					<a href="#" class="header-counter basket">Корзина: 0</a>  			
 					<a href="#" class="checkout">Оформить заказ</a>
 				</div>
 			</nav>
@@ -41,7 +41,9 @@
 			</p>
 
 			<ul class="user-navigation">
-				<li><a href="#" class="login">Войти</a></li>
+				<li>
+					<a href="#" class="login">Войти</a>
+				</li>
 				<li><a href="#" class="registration">Регистрация</a></li>
 			</ul>
 
@@ -68,8 +70,7 @@
 					</a>
 					<a href="catalog.html" class="block-subtitle">
 						На любой вкус
-					</a>
-					
+					</a>					
 					
 				</div>
 
@@ -78,15 +79,13 @@
 					<h3 class="block-title">Инструмент</h3>					
 					<a href="catalog.html" class="block-subtitle">
 						На все случаи
-					</a>
-										
+					</a>										
 					
 				</div>
 
 				<div class="block-products block-mini-3">
 					
-					<h3 class="block-title">Техника</h3>
-					
+					<h3 class="block-title">Техника</h3>					
 					<a href="catalog.html" class="block-subtitle">
 						Для стройки
 					</a>									
@@ -122,9 +121,8 @@
 					</a>
 					<a href="catalog.html">
 						<p class="block-subtitle">На 350 товаров</p>
-					</a>
-										
-					<img src="img/icon-4.svg" alt="Скидка" width="59" height="72">
+					</a>									
+					
 				</div>
 
 				<div class="block-products block-mini-5">
@@ -133,9 +131,8 @@
 					</a>
 					<a href="catalog.html">
 						<p class="block-subtitle">Бесплатно</p>
-					</a>
-										
-					<img src="img/icon-5.svg" alt="Доставка" width="78" height="63">
+					</a>										
+					
 				</div>
 			</section>
 
@@ -233,7 +230,7 @@
 
 				<div class="features">
 					<ul class="features-list">
-						<li><button class="features-button features-1">Доставка</button></li>
+						<li><button class="features-button">Доставка</button></li>
 						<li><button class="features-button">Гарантия</button></li>
 						<li><button class="features-button features-3">Кредит</button></li>
 					</ul>
@@ -322,18 +319,18 @@
 
 		<div class="form-dispatch">
 	  	<form action="https://echo.htmlacademy.ru" method="post">
-						<p class="input-name">
-							<label for="user-name">Ваше имя:</label>
+						<p class="entry-field input-name">
+							<label for="user-name" class="header-form-dispatch">Ваше имя:</label>
 							<input type="name" id="user-name" name="name" placeholder="Имя Фамилия">
 						</p>
 
-						<p class="input-email">
-							<label for="email">Ваш e-mail:</label>
+						<p class="entry-field input-email">
+							<label for="email" class="header-form-dispatch">Ваш e-mail:</label>
 							<input type="email" id="email" name="email" placeholder="email@example.com">
 						</p>
 
 						<p class="input-text">
-							<label for="text">Текст письма:</label>
+							<label for="text" class="header-form-dispatch">Текст письма:</label>
 							<input type="text" id="text" name="text" placeholder="В свободной форме">
 						</p>
 
