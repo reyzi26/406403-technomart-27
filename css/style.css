@@ -111,15 +111,19 @@ a{
 }
 .form-search{
   background-color: #293449;
-} 
+}
 
-
+.header-counter{
+  color: #ffffff;
+  background-color: #293449;
+}
 .header-counter:hover{
   color: #ffffff;
   background-color: #212a3a;
 }
 .header-counter:active{
-  background-color: #161d29;
+  color: #8a8e94;
+  background-color: #161d29; 
 }
 .checkout{
   color: #ffffff;
@@ -133,7 +137,8 @@ a{
   background-color: #5fbb2d;
 }
 .checkout:active{
-  background-color: #518534;
+  color: #a8c299;
+  background-color: #518534;  
 }
 .main-header-logo{
   width: 109px;
@@ -155,11 +160,16 @@ a{
   font-size: 14px;
   font-weight: 400;
   height: 13px;
+  font-family: 'Cuprum', 'Arial', sans-serif; 
+
 }
 .contacts-info a{
   color: #ee3643;
   font-size: 21px;
   font-weight: 400;
+
+  letter-spacing: 0.42px;
+  font-family: 'Cuprum', 'Arial', sans-serif;  
 }
 
 .block-title{
@@ -516,6 +526,82 @@ a{
   color: #ffffff;
 }
 
+/* Каталог */
+
+.name-user{
+  font-family: 'Cuprum', 'Arial', sans-serif;
+  font-size: 21px;
+  color: #000000;
+  cursor: pointer;
+}
+.name-user:active{
+  opacity: 0.3;
+  color: #000000;
+}
+.container-navigation li{
+  list-style: none;  
+  font-size: 13px;
+  font-family: 'PT Sans', 'Arial', sans-serif;
+  text-transform: uppercase;
+}
+.navigation-element{
+  color: #000000;
+}
+
+
+.personal-navigation{
+  text-decoration: underline;
+  color: #32425c;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Cuprum', 'Arial', sans-serif;
+}
+.personal-navigation:hover{
+  color: #ee3643;
+}
+.personal-navigation:active{
+  opacity: 0.3;
+  color: #32425c;
+}
+.filter,
+.sorting{  
+  color: #000000;
+  background-color: #f7f3ec;
+  font-family: 'PT Sans', 'Arial', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+}
+.sorting-view li{ 
+  display:  inline-block;
+  color: #000000;
+  font-family: "PT Sans";
+  font-size: 13px;
+  list-style:none;  
+}
+
+.sorting-element{
+  border-bottom: 1px dotted #ee3643;
+  background-color: #f7f3ec;
+  opacity: 0.3;
+}
+
+
+.header-list-filter{
+  color: #000000;
+  font-family: 'PT Sans', 'Arial', sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+.btn-look{
+  color: #000000;
+  font-family: 'PT Sans', 'Arial', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  border: 1px solid #e5e5e5;
+  background-color: #ffffff;
+}
 
 .visually-hidden {
   position: absolute;
